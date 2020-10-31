@@ -1,0 +1,71 @@
+.chart-container{
+    width:80%;
+    height:480px;
+    margin:0 auto;
+}
+.pie-chart-container{
+    height:360px;
+    width:360px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+.bill{
+    background-color: #eee; 
+}
+.num{
+    padding-left: 8px;
+    position: absolute;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+}
+.cash{
+    position: absolute;
+    right: 10px;
+}
+.welcome{
+    text-align: center;
+    text-transform: uppercase;
+}
+#barContainer{
+    display: none;
+}
+#p{
+    display:none;
+}
+#small {
+    color: #dc3545;
+}
+#sm {
+    color: #dc3545;
+}
+/* media queries */
+@media(min-device-width: 30px) and (max-device-width: 767px) {
+    .chart-container{
+        width:100%;
+        height:480px;
+        margin:0 auto;
+    }
+    .pie-chart-container{
+        height:200px;
+        width:200px;
+    }
+    .columns{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .columns .card{
+        width: 100%;
+    }
+}
+@media(max-device-width: 275px) {
+    body{
+        font-size: smaller;
+    }
+    h5{
+        font-size: xx-small;
+    }
+}

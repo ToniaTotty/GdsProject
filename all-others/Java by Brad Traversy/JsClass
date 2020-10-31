@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning JavaScript</title>
+	<link rel="stylesheet" href="style2.css">
+	<script src="main.js"></script>
+</head>
+	<body>
+		<div class="header">
+			<h1 id="heading">Learning JavaScript</h1>
+			<p>Class By Tonia</p>
+		</div>
+	</body>
+</html>

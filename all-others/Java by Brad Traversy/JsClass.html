@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+	<body id="body">
+		<div class="header">
+			<h1 id="heading">Learning JavaScript</h1>
+			<p>just checking</p>
+			<p id="tonia">Class By Tonia</p>
+			<button onmouseover ="changeDate()" onmouseout="goBack()">try it</button>
+
+			<div>
+				<label>Background</label>
+				<select name="background" id="background" onchange="changeBackground(this)">
+					<option value="blue">Blue</option>
+					<option value="green">Green</option>
+					<option value="maroon">Maroon</option>
+				</select>
+				<!-- better way// updated 12th aug, 2020 -->
+				<!-- <label>Background</label>
+				<select name="background" id="background">
+					<option value="blue">Blue</option>
+					<option value="green">Green</option>
+					<option value="maroon">Maroon</option>
+				</select> -->
+			</div>
+		</div>
+	<script src="main.js"></script>
+	</body>
+</html>
